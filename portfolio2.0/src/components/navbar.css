@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    width: 100vw;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, #00b4db, #0083b0);
+    align-items: center;
+}
+
+nav a {
+    color: white;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.name{
+    padding: 5px;
+    margin: 5px;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.navbarList{
+    list-style: none;
+    display: flex;
+    margin: 5px;
+}
+
+.navbarListEl{
+    padding: 5px;
+}
