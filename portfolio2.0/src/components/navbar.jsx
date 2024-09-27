@@ -1,20 +1,21 @@
 import "./navbar.css"
+import { useState } from 'react'
 
-function Navbar(){
+
+function Navbar({onClick}){
     return (
         <>  
             <nav className="navbar">
                 <a href="#" className="name">Erick</a>
-                <div className="">
-                    <ul className="navbarList">
-                        <li className="navbarListEl"><a href="#">About Me</a></li>
-                        <li className="navbarListEl"><a href="#">Contact Me</a></li>
-                        <li className="navbarListEl"><a href="#">Portfolio</a></li>
-                    </ul>
-                </div>
+                <ul className="navbarList">
+                    <li className="navbarListEl"><button id="1" onClick={onClick}>About Me</button></li>
+                    <li className="navbarListEl"><button id="2" onClick={onClick}>Contact Me</button></li>
+                    <li className="navbarListEl"><button id="3" onClick={onClick}>Portfolio</button></li>
+                    <li className="navbarListEl"><button id="4" onClick={onClick}>Resume</button></li>
+                </ul>
             </nav>
         </>
     )
 }
 
-export default Navbar
+export default Navbar;

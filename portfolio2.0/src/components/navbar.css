@@ -7,6 +7,7 @@
     justify-content: space-between;
     background-image: linear-gradient(to right, #00b4db, #0083b0);
     align-items: center;
+    height: 15vh;
 }
 
 nav a {
@@ -15,6 +16,11 @@ nav a {
 
 nav a:hover {
     color: white;
+}
+
+nav button {
+    all: unset;
+    font-size: x-large;
 }
 
 .name{
@@ -32,4 +38,16 @@ nav a:hover {
 
 .navbarListEl{
     padding: 5px;
+}
+
+@media screen and (max-width: 600px){
+    nav button {
+        font-size: large;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    nav button {
+        font-size: small;
+    }
 }
