@@ -6,7 +6,7 @@ A portfolio is one of the most important things a developer can have. This portf
 
 ## Usage
 
-To use this website, please visit the following link: 
+To use this website, please visit the following link: https://main--ericks-portfolio.netlify.app/
 Once on it, you can click on any four option of the navbar or the footer github logo. If you click the github logo in the footer, you will be brought to my github page. If you look at the portfolio page, you will see some projects. If you hover your cursor on these projects, you will have access to both a link to the deployed project and a link to the github repo.
 
 ## Contact Me
