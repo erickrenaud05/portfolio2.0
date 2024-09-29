@@ -4,7 +4,7 @@ import './Footer.css'
 function Footer(){
     return(
         <>
-        <div class="footer">
+        <div className="footer">
             <a href="https://github.com/erickrenaud05" target="_blank"><img src={githubLogo} alt="Github logo" /></a>
         </div>
         </>

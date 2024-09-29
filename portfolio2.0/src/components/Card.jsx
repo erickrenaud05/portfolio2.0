@@ -13,7 +13,10 @@ function Card(props){
     return(
         <div className="card" style={style}>
             <div className='cardContent'>
-                <h2 className="cardName">{props.name}<a href={props.github} target="_blank"><img src={githubLogo} alt="Github logo" /></a></h2>
+                <h2 className="cardName">
+                    <a href={props.projectUrl} target="_blank">{props.name}</a>
+                    <a href={props.github} target="_blank"><img src={githubLogo} alt="Github logo" /></a>
+                </h2>
             </div>
             
         </div>

@@ -6,7 +6,9 @@
     align-items: center;
 }
 
-
+a{
+    color: black
+}
 
 img {
     max-width: 100px;
