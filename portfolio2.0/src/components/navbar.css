@@ -23,6 +23,20 @@ nav button {
     font-size: x-large;
 }
 
+nav button:hover {
+    color: red;
+}
+
+nav button:focus-visible{
+    outline: none;
+    color: red;
+}
+
+nav button:focus{
+    outline: none;
+    color: red;
+}
+
 .name{
     padding: 5px;
     margin: 5px;

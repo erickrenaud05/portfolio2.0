@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+@media screen and (max-width: 400px){
+    .container{
+        justify-content: center;
+    }
+}

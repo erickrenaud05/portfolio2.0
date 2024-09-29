@@ -11,6 +11,7 @@ function App() {
 
   const handleClick = (e)=>{
     setPage(e.target.id);
+
   };
 
   return (
