@@ -8,7 +8,7 @@ function Portfolio(){
 
     const projects = [
         {
-            name: 'Blog',
+            name: 'Cms-Style-Blog',
             github: 'https://github.com/erickrenaud05/CMS-blog',
             img: blogProject
         },
